@@ -1,0 +1,162 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+  
+body {
+	background: #fff;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --colorVioleta: blueviolet;
+}
+/* menu */
+header{
+	width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    border-bottom: 5px solid blueviolet;
+	
+
+
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+
+.menu img{
+	border-radius: 10%;
+	width: 100px;
+	height: 100px;
+	
+
+}
+
+
+
+nav ul li {
+	list-style: none;
+	margin-left: 75px;
+	padding: 40px 0;
+	float: left;
+	position: relative;
+	font-weight: bold;
+	color: blueviolet;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: blueviolet;
+    height: 5px;
+    top: 0;
+    position: absolute;
+}
+
+nav ul li a:hover::before{
+	width: 100%;
+	transition: 0.3s;
+}
+
+.carrito svg{
+    fill: green;
+    background: none !important;
+}
+
+.carrito svg:hover{
+    transform: scale(1.5);
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns: 3fr 1 ;
+
+	
+}
+
+.titulo { 
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-conciertos {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	
+}
+
+.card{
+	/* border: solid 3px red; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	/* overflow: hidden; */
+	background-size: cover !important;
+	background-position: center center;
+	margin: 4%;
+}
+
+.card .lg{
+	margin-bottom: 110px;
+}
+.card img{
+	width: 100%;
+}
+
+ .textos {
+	/* border: solid 3px blue; */
+	height: 100%;
+	align-items: flex-end;
+	
+	
+}
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+footer{
+	margin-top: 100px;
+	
+
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd0f6;
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #ddd0f6 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    display: flex;
+    min-height: 100vh;
+    font-weight: bold;
+}
+
+.form{
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+}
+
+.form_title{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.form_container{
+    margin-top:3em ;
+    display: grid;
+    gap: 2.5em;
+
+}
+.form_group{
+    position: relative;
+    --color: #5757577e;
+}
+
+
+
+
